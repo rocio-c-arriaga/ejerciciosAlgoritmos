@@ -1,0 +1,130 @@
+ITERANDO
+
+//Realiza el pseudocódigo y diagrama de flujo que imprima en pantalla los números del 0 al 100, separados con una coma, utilizando “for”
+
+
+1.Inicio
+2.Realizar secuencia del 0 al 100
+3.Si la condicion no se cumple no imprimir
+4. Imprimir dentro del i
+7.Fin
+
+
+//Realiza el pseudocódigo y diagrama de flujo que imprima en pantalla los números del 0 al 100, separados con una coma, utilizando “do while” (imagen de diagrama en carpeta de img) 
+
+
+1.Inicio
+2.imprime var"Numero"=0
+3.sumar a var"Numero"+ 1,
+4. Mientras numero es menor o igual a 100
+5.imprime (numero +,)
+6.repite el ciclo
+7.Fin
+
+
+
+//Realiza el pseudocódigo y diagrama de flujo  que imprima en pantalla los números del 0 al 100, separados con una coma, utilizando “do until”
+
+
+1.Inicio
+2.imprime var"Numero"=0
+3.sumar a var"Numero"+ 1,
+4. cumplir condición hasta que el numero sea igual a 100
+5.Fin
+
+//Las diferencias que note fue al realizar los siguientes ejercicios y haciendo los diagramas de flujo, los ciclos son similares, pero en un orden diferente en FOR la iteración se conforma primero con la declaración, después la condición y luego el incremento, en WHILE la declaración, condición y las sentencias realizan el ciclo regresando a la condición y en DO WHILE se realiza primero las sentencias, el ciclo y la condición. 
+
+ESTRUCTURAS DE CONTROL
+
+FOR (imagen de diagrama en carpeta de img) 
+
+console.log ("Inicio");
+
+//Declaración
+var n=0;
+var limit=100;
+
+//Ciclo for
+for (var i=n; i<=limit; i++){
+  console.log("iterador",i)
+}
+
+
+
+WHILE (imagen de diagrama en carpeta de img) 
+
+
+//Inicio while
+
+//Declaración
+var n=0;
+var limit=100;
+
+while (n<=100){
+  console.log("i",n)
+  n = n + 1;
+}
+
+
+
+DO WHILE (imagen de diagrama en carpeta de img) 
+
+
+//Inicio do while Unitl
+
+//Declaración
+var n=0;
+var limit=100;
+
+do {
+  console.log("i =",n);
+  n = n + 1;
+} while (n <=100)
+  
+
+IF 
+
+
+//declaración de variables
+var age=1000;
+
+if (age<18){
+  console.log ("Eres menor de edad")
+} else { 
+  console.log ("Eres mayor de edad")
+}
+
+
+
+
+
+
+//imprimir numeros del 1 al 100 que sean divisibles entre 2 
+
+var n=1
+var limit=100
+
+//ciclo 
+for (var i=n; i<=limit; i++){
+  if (i%2==0){
+    console.log ("i", i)
+  }
+}
+
+
+Ejercicios que aún no realizo :
+
+
+//IMPRIMIR ciclos de 100 a 0
+
+
+//sumar todos los números del 1 al 100
+
+
+//muestre la cantidad de asteriscos los números pedidos
+
+//imprimir las tablas de multiples
+
+
+
+
